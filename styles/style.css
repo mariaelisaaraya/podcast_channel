@@ -116,9 +116,11 @@ header nav {
     top: 44px;
     left: 0; }
     header nav .menu li {
-      color: white; }
+      display: block; }
       header nav .menu li a {
-        text-decoration: none; }
+        text-decoration: none;
+        color: white;
+        font-weight: 600; }
 
 .banner {
   padding: 90px 9px 10px 10px; }

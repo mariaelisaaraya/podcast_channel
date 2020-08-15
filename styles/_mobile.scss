@@ -50,9 +50,11 @@ header {
             left: 0;
 
             li {
-                color: white;
+                display: block;
                 a{
                     text-decoration: none;
+                    color: white;
+                    font-weight: 600;
                 }    
             }
         }
