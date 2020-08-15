@@ -1,0 +1,209 @@
+@import 'variables';
+
+
+// Generales
+.container {
+    max-width: calc(100% - 32px);
+}
+
+
+//Componentes
+header {
+    nav {
+        height: 44px;
+     
+        .btn-hamburguer-action{
+            display: none;
+        }
+
+        .btn-hamburguer-action:checked ~ .menu {
+            display: block;
+        }
+
+        .btn-hamburguer-action:checked ~ label .btn-hamburguer {
+            .bars {
+                display: none;
+            }
+
+            .close {
+                display: block;
+            }
+
+        }
+
+        .btn-hamburguer { 
+            .bars {
+                display: block;
+            }
+
+            .close {
+                display: none;
+            }
+        }
+        
+        .menu {
+            background-color: $primary-color;
+            display: none; 
+            position: absolute;
+            width: 100%;
+            top: 44px;
+            left: 0;
+
+            li {
+                color: white;
+                a{
+                    text-decoration: none;
+                }    
+            }
+        }
+    
+    }
+}
+
+.banner {
+    padding: 90px 9px 10px 10px;
+
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 16px 0px 36px 0px;
+    
+    }
+
+    .desktop {
+        display: none;
+    }
+
+}
+
+.episodes {
+    clip-path: polygon(0 3%, 100% 0%, 100% 97%, 0% 100%);
+
+    h2 {
+        font-size: 36px;
+        padding-top: 64px;
+    }
+
+    .podcasts {
+        padding: 16px 0px 176px 0px;
+
+        iframe {
+            width: 100%;
+            margin-top: 11px;
+        }
+
+        iframe:first-child{
+            margin-top: 0;
+        }
+    }
+}
+
+.our-us {
+    img {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 36px;
+        font-family: $font-secondary;
+        margin: 27px 0 8px 0;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 22px;
+
+        &:last-child{
+            margin-top: 20px;
+        } 
+
+    }
+}
+
+.invites {
+    h2 {
+        font-size: 36px;
+        font-family: $font-secondary;
+        margin:54px 0 14px 0;
+    }
+
+    .images {
+        li {
+            display: block;
+            margin-bottom: -4px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.topics {    
+    h2 {
+        font-size: 36px;
+        margin: 48px 0 24px 0;
+    }
+
+    .list {
+        text-align: center;
+
+        li {
+            margin-bottom: 36px;
+
+            img {
+                margin: 13px 0;
+            }
+
+            h3 {
+                font-size: 24px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.news {
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+    background-color: $primary-color;
+
+    .container {
+        padding: 64px 0 67px 0;
+        
+        h2{
+            color: white;
+            margin: 25px 0 36px 0;
+            font-size: 36px;
+            text-align: center;
+            line-height: 42px;
+            font-family: $font-secondary;
+
+        }
+
+    }
+
+}
+
+.community {
+    .container {
+        text-align: center;
+
+        p {
+            margin: 24px 0 16px 0;
+        }
+    }
+    .social_networks {
+        margin-bottom: 32px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        
+        a {
+            color: $text-color;
+        }
+    }
+
+}
