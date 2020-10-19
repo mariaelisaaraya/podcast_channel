@@ -1,13 +1,36 @@
-podcast-channel
-Podcast made in html and scss
-Condition 1: Etiquetas semánticas Rehacer. Checked.
-Condition 2: Icono Correct
-Condition 3: Tipografías Correct
-Condition 4: Atributo Alt Correct
-Condition 5: Límites no rectangulares Correct
-Condition 6: Iframe Rehacer. Checked.
-Condition 7: Imagen superpuesta Correct
-Condition 8: Menú hamburguesa Correct
-Condition 9: Anchors Rehacer. Checked.
-Condition 10: Hovers Rehacer. Checked.
-Condition 11: Diseño Correct
+# Podcast Channel
+
+El desafío está enfocado en el maquetado de la landing page de un canal de Podcast, siguiendo las guías visuales de una interfaz de usuario.
+
+## Comenzando 🚀
+
+_Clonar el contenido del repositorio o descargarlo directamente.
+
+### Pre-requisitos 📋
+
+_Tener instalado un IDE (como por ejemplo: Visual Studio Code)
+
+### Recursos: 🔧
+
+_UI Kit
+
+## Construido con 🛠️
+
+* HTML
+* CSS
+
+
+## Versionado 📌
+
+[PodcastChannel](https://elishitas.github.io/podcast_channel/).
+
+## Autora ✒️
+* **Maria Elisa Araya** -Ex personal de salud que se convierte en Desarrolladora Web Full Stack
+
+
+## Expresiones de Gratitud 🎁
+
+* Gracias por pasar 📢
+
+---
+⌨️ con ❤️
