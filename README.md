@@ -22,7 +22,7 @@ _UI Kit
 
 ## Versionado 📌
 
-[PodcastChannel](https://elishitas.github.io/podcast_channel/).
+[PodcastChannel](https://mariaelisaaraya.github.io/podcast_channel/).
 
 ## Autora ✒️
 * **Maria Elisa Araya** -Ex personal de salud que se convierte en Desarrolladora Web Full Stack
